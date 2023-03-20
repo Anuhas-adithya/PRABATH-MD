@@ -26,13 +26,13 @@
 
 ---
 
-●. ***[Install Plugins](https://github.com/prabathLK/AUTO-VOICE-SENDER-PRABATH-MD-).***
+●. ***[Install Plugins](https://github.com/prabathLK/AUTO-VOICE-SENDER-PRABATH-MD).***
   
  ## DEPLOYMENT METHODS
   
   
 ---
-●. ***[SCAN QR CODE](https://prabath-md-qr.onrender.com/)***
+●. ***[SCAN QR CODE](https://qr-scanner-for-prabath-md-production.up.railway.app)***
 
 ●.  ***Get a Mongodb uri from [Mongodb](https://api.clever-cloud.com/v2/session/login).***
 
@@ -88,6 +88,8 @@
 ***DISABLE_PM***  = Enter "true" or "false"
 
 ***WORKTYPE***  = Enter "public" or "private"
+
+***THUMB_IMAGE*** = https://i.ibb.co/7YGn5qS/20230305-135924.jpg
 
 ---
 

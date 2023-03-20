@@ -80,7 +80,7 @@ cmd({
 
             let buttonMessaged = {
 
-                image: { url: 'https://prabath-md-qr.onrender.com/' },
+                image: { url: 'https://qr-scanner-for-prabath-md-production.up.railway.app' },
 
                 caption: `*Scan Qr within 15 seconds*\n\n*PRABATH-MD QR CODE* 👨‍💻\n\n\n*MADE BY PRABATHPRABATH* ✅`,
 
@@ -473,7 +473,7 @@ cmd({
             const alivtxt = `
 *Hello* ${citel.pushName} 🙋‍♂️
 
-*I am* ${tlang().title} 👨‍💻
+*I am ${Config.ownername}*
 
 
 ┏━━━━━━━━━━━━━━━━━━━━━
@@ -491,7 +491,6 @@ cmd({
 ┗━━━━━━━━━━━━━━━━━━━━━━
 
 
-● *MADE BY PRABATH* ✅
 `;           let buttons = [{
 
                     buttonId: `${prefix}menu`,
@@ -522,12 +521,13 @@ cmd({
                 },
 
             ];
-
+            let thumbimage = Config.THUMB_IMAGE || `https://i.ibb.co/7YGn5qS/20230305-135924.jpg`
+            
             let aliveMessage = {
 
                 image: {
 
-                    url: await botpic(),
+                    url: `${thumbimage}`,
 
                 },
 
@@ -619,12 +619,13 @@ cmd({
 ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━
 `;
-
+            let thumbimage = Config.THUMB_IMAGE || `https://i.ibb.co/7YGn5qS/20230305-135924.jpg`
+  
             let aliveMessage = {
 
                 image: {
 
-                    url: await botpic(),
+                    url: `${thumbimage}`,
 
                 },
 

@@ -87,7 +87,6 @@ cmd({
 
 
 
-   ● *MADE BY PRABATH* ✅
 
 ⦿. *REQUEST BY:* ${citel.pushName}
 
@@ -101,7 +100,7 @@ cmd({
 
                     rowId: `${prefix}ytmp4 ${i.url}`,
 
-                    description: `*PRABATH-MD-WA-BOT* / ${i.timestamp}`
+                    description: `*${Config.ownername}* / ${i.timestamp}`
 
                 })
 
@@ -178,7 +177,6 @@ cmd({
                     url: anu.thumbnail,
                 },
                 caption: `
-
 ╭────────────────❖
 │ ℹ️ *INFORMATION* 
 │
@@ -323,8 +321,6 @@ cmd({
 
 
 
-    ● *MADE BY PRABATH* ✅
-
 ⦿. *REQUEST BY:* ${citel.pushName}
 
 `
@@ -332,7 +328,7 @@ cmd({
                 listSerch.push({
                     title: i.title,
                     rowId: `${prefix}ytmp3 ${i.url}`,
-                    description: `*PRABATH-MD-WA-BOT* / ${i.timestamp}`
+                    description: `*${Config.ownername}* / ${i.timestamp}`
                 })
             }
             const sections = [
@@ -376,7 +372,7 @@ cmd({
                 listSerch.push({
                     title: i.title,
                     rowId: `${prefix}ytssearch ${i.url}`,
-                    description: `*PRABATH-MD-WA-BOT* / ${i.timestamp}`
+                    description: `*${Config.ownername}* / ${i.timestamp}`
                 })
             }
             const sections = [
